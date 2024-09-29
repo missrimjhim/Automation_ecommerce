@@ -12,9 +12,10 @@ public class TestClass extends BaseClass {
     Homepage homepage;
     //click on ALL and close
     @Test
-    public void TC_1(){
+    public void TC_1() throws InterruptedException {
         homepage = new Homepage(driver);
-        homepage.clickOnAllmenu();
-        homepage.clickonCloseAllnavMenu();
+        //homepage.clickOnAllmenu();
+        homepage.clickOnBestSellers();
+        //homepage.clickOnFresh();
     }
 }
