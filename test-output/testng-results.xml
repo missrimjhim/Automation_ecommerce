@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-30T01:38:16 IST" name="All Test Suite" finished-at="2025-03-30T01:38:35 IST" duration-ms="18277">
+    <groups>
+    </groups>
+    <test started-at="2025-03-30T01:38:16 IST" name="AutomationEcommerce" finished-at="2025-03-30T01:38:35 IST" duration-ms="18277">
+      <class name="AmazonTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AmazonTest@23f7d05d]" started-at="2025-03-30T01:38:16 IST" name="setUp" finished-at="2025-03-30T01:38:20 IST" duration-ms="4116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAmazonSearch()[pri:0, instance:AmazonTest@23f7d05d]" started-at="2025-03-30T01:38:21 IST" name="testAmazonSearch" finished-at="2025-03-30T01:38:33 IST" duration-ms="12822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AmazonTest@23f7d05d]" started-at="2025-03-30T01:38:33 IST" name="tearDown" finished-at="2025-03-30T01:38:35 IST" duration-ms="1293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AmazonTest -->
+    </test> <!-- AutomationEcommerce -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
